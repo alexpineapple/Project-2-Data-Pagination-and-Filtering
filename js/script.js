@@ -152,6 +152,9 @@ function showSearchBar() {
       } else {
         const ul = document.querySelector(".student-list");
         ul.innerHTML = '<div class="error"> Sorry, no search results found. </div>'
+        //remove pagination buttons
+        const list = document.querySelector(".link-list");
+        list.innerHTML = "";
       }
     }
   }
