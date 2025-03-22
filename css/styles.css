@@ -28,6 +28,39 @@ ul {
 	color: red;
 }
 
+.good {
+	color: rgb(9, 80, 0);
+}
+
+.link-list button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.items-per-page {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.items-per-page select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.sort-options {
+  display: inline-block;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.sort-options select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
 
 header {
   text-align: center;
